@@ -1,5 +1,5 @@
 //Ecrire un smart contract  qui gère un magasin d'articles (addItem, getItem , setItem)
-// On stock ces produits dans un mapping
+// On stock ces produits dans un mapping test
 
 // SPDX-License-Identifier: GPL-3.0
 pragma solidity >=0.8.0 <0.9.0;

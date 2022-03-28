@@ -1,7 +1,8 @@
+// SPDX-License-Identifier: GPL-3.0
 pragma solidity >=0.8.0 <0.9.0;
 
 contract SimpleStorage {
-    uint256 integer = 100; //Variable d'état qui sera stocké de manière permanente dans la blockchain
+    uint256 integer = 100; //tVariable d'état qui sera stocké de manière permanente dans la blockchain
 }
 
 // Smart contract qui définit un mapping "whitelist" ou la clé est une address et la valeur un booléan
@@ -47,14 +48,14 @@ contract Whitelist3 {
         uint256 age;
     }
 
-    function addPerson(string memory _name, uint256 _age) public {
+    function addPerson(string memory _name, uint256 _age) public pure {
         Person memory person;
         person.name = _name;
         person.age = _age;
     }
 }
 
-/**************************************************Array****************************************************/
+/************************************************Array****************************************************/
 
 //Person[] public people; // un tableau dynamique de type Person, peut contenir n "Person"
 
